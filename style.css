@@ -1,0 +1,31 @@
+
+
+.navbtn {
+    width: 200px;
+    height: 150px;
+}
+
+
+@media only screen and (min-width: 480px){
+    .navbtn {
+        background-color: yellow;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .navbtn {
+        background-color: blue;
+        display: inline;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .navbtn {
+        background-color: red;
+        width: 200px;
+        height: 150px;
+        display: inline-block;
+    }
+}
